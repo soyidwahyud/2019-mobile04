@@ -28,5 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    public void handleBundle(View view) {
+        Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+    }
 }
